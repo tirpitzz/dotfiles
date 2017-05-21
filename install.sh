@@ -1,14 +1,9 @@
 #!/bin/bash
-###################################################################################
-# .make.sh
-# This script creates symlinks from the home directory to any desired dotfiles in
-# ~/repos/dotfiles
-###################################################################################
 
 # Variables #######################################################################
 
 dir=~/repos/dotfiles            #dotfiles directory
-olddir=~/dotfilesOld            #old dotfiles backup directory
+olddir=$HOME/dotfiles.old           #old dotfiles backup directory
 files="vimrc spacemacs zshrc tmux.conf xmobarrc Xmodmap xmonad"
                                 # list of files/folders to symlink in homedir
 
